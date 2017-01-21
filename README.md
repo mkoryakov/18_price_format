@@ -6,8 +6,8 @@
 Для запуска скрипта дополнительных действий не требуется.
 
 # Примеры работы скрипта
-    $ python format_price 2014
-    2 014.00
+    $ python format_price 2014.00
+    2 014
     $ python format_price error_value
     None
 
