@@ -5,8 +5,8 @@ def format_price(price):
     try:
         stirng_price = str(price)
         float_price = float(stirng_price)
-        comma_separator_price = '{0:,.2f}'.format(float_price)
-        return comma_separator_price.replace(',', ' ')
+        comma_separated_price = '{0:,.0f}'.format(float_price)
+        return comma_separated_price.replace(',', ' ')
     except ValueError:
         return None
 
